@@ -1,0 +1,19 @@
+body{
+
+}
+
+div{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom,
+        rgba(255, 255, 255, .4)
+        rgba(255, 255, 255)
+    ), url(media/fall2.jpg);
+    height: 100vh;
+    color: purple;
+}     
+
+ul[target]{
+    text-align: center;
+}
+
+    
