@@ -1,24 +1,30 @@
-html {
+body{
+    background-image: url(media/fall2.jpg);
+}
+
+html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.header {
+.header{
     height: 100vh;
-    background-color: rgb(255, 0, 255);
     position: relative;
-}
-.header-text{
-    
+    background-image: url(media/fall2.jpg);
 }
 
-h1{
+.header-text{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+    text-transform: uppercase;
+    color: purple;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1cm;
 
+}
 
 
