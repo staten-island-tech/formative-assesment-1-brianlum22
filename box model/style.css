@@ -2,30 +2,42 @@ body{
 }
 
 html{
-    margin: 2;
-    padding: 2;
+    margin: 1;
+    padding: 1;
     box-sizing: border-box;
 }
+
 .header{
     height: 100vh;
     position: relative;
-    background-image: url(media/okboomer.jpg);
+    background-image: url(media/weathering.jpg);
+    background-size: 20rem;
+    opacity: 75%;
 }
 
 .header-text{
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    color: blue;
+    color: magenta;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Odibee Sans', cursive;
     text-align: center;
     font-size: 1cm;
+    background-color: pink;
+    z-index: 100vh;
 }
 
+h1{
+    font-size: 5rem;
+    color: darkblue;
+}
 
-
+h4{
+    color:magenta;
+    font-family: 'Odibee Sans', cursive;
+}
 
 
